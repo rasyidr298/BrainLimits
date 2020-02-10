@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profil_menu"
+        android:title="profile"
+        android:icon="@drawable/activity_profile"/>
+    <item
+        android:id="@+id/soal_menu"
+        android:title="soal"
+        android:icon="@drawable/activity_soal"/>
+    <item
+        android:id="@+id/hasil_menu"
+        android:title="hasil"
+        android:icon="@drawable/activity_hasil"/>
+
+</menu>
