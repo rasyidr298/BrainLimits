@@ -29,7 +29,7 @@ public class BottomNav extends AppCompatActivity {
 
 
         adapter.AddFragment(new FragmentProfile(),"Profile");
-        adapter.AddFragment(new FragmentSoal(),"Soal");
+        adapter.AddFragment(new FragmentSoal(),"ModelSoal");
         adapter.AddFragment(new FragmentHasil(),"Hasil");
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);

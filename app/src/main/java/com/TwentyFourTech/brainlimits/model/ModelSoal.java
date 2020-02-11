@@ -1,6 +1,6 @@
-package com.TwentyFourTech.brainlimits.RecyclerView;
+package com.TwentyFourTech.brainlimits.model;
 
-public class Soal {
+public class ModelSoal {
 
     private String Tipe;
     private String SoalBro;
@@ -11,7 +11,7 @@ public class Soal {
     private int Photo;
 
 
-    public Soal(String tipe, String soalBro, String kuncijawabA, String kuncijawabB, String kuncijawabC, String kuncijawabD, int photo) {
+    public ModelSoal(String tipe, String soalBro, String kuncijawabA, String kuncijawabB, String kuncijawabC, String kuncijawabD, int photo) {
         Tipe = tipe;
         SoalBro = soalBro;
         KuncijawabA = kuncijawabA;

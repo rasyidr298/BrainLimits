@@ -1,4 +1,4 @@
-package com.TwentyFourTech.brainlimits.RecyclerView;
+package com.TwentyFourTech.brainlimits.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -10,15 +10,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.TwentyFourTech.brainlimits.R;
+import com.TwentyFourTech.brainlimits.model.ModelSoal;
 
 import java.util.List;
 
-public class RecyclerViewAdapter extends android.support.v7.widget.RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
+public class AdapterSoal extends android.support.v7.widget.RecyclerView.Adapter<AdapterSoal.MyViewHolder> {
 
     Context mContext;
-    List<Soal> mData;
+    List<ModelSoal> mData;
 
-    public RecyclerViewAdapter(Context mContext, List<Soal> mData) {
+    public AdapterSoal(Context mContext, List<ModelSoal> mData) {
         this.mContext = mContext;
         this.mData = mData;
     }
